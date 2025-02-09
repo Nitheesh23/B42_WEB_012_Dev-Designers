@@ -1,8 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   text-align: center;
+  /* margin: auto;
+  width: 80vh; */
 }
 
 .top-banner {
@@ -46,12 +48,14 @@ body {
 .associated .logos img {
   height: 60px;
   margin: 5px;
+
 }
 
 .associated .logos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .navigation {
@@ -120,6 +124,9 @@ body {
   color: orange;
   text-decoration: none;
 }
+
+
+
 
 .navbar {
   background: #fff;
@@ -221,6 +228,107 @@ body {
   border-radius: 5px;
 }
 
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.grid-item {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.section1 {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+} */
+
+li {
+  cursor: pointer;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  transition: color 0.3s;
+}
+
+li:hover {
+  color: #007BFF;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
 .advisory {
   background-color: #ffdddd;
   padding: 10px;
@@ -259,6 +367,11 @@ header {
   align-items: center;
 }
 
+.social-icons span{
+  color: white;
+  font-weight: bold;
+}
+
 .social-icons .icons {
   margin-left: 10px;
 }
@@ -266,19 +379,27 @@ header {
 .stocks {
   background-color: white;
   padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 .stock-letters {
   display: flex;
-  gap: 8px;
+  gap: 5px;
   margin-top: 5px;
+  margin-left: 60px;
+  font-size: 30px;
 }
 
 .stock-letters button {
-  background-color: #ddd;
+  background-color: #E9ECF0;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .content {
@@ -294,13 +415,14 @@ header {
 
 .section h3 {
   margin: 0;
-  font-size: 18px;
-  color: #333;
+  font-size: 30px;
+  color: black;
+  margin-right: 400px;
 }
 
 .section p {
   color: #666;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .new {
@@ -311,7 +433,65 @@ header {
   border-radius: 3px;
 }
 
-/* News and Charts */
+.dotted-line {
+  border: none;
+  border-bottom: 1px dashed #B4B4B4;
+  width: 100%;
+}
+
+
+
+
+.footer1 {
+  background-color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer1 .apps {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  gap: 15px;
+  margin-bottom: 10px;
+  margin-right: 400px;
+}
+
+.footer1 .apps span{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer1 .apps img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.footer1 .copyright {
+  font-size: 15px;
+  color: #666;
+  max-width: 80%;
+  margin: auto;
+}
+
+.footer1 .divider {
+  border-top: 1px solid #ccc;
+  margin: 10px auto;
+  max-width: 90%;
+}
+
+.footer1 .iso-cert {
+  text-align: right;
+  padding-right: 20px;
+  margin-bottom: 15px; 
+  margin-top: -60px;
+}
+
+.footer1 .iso-cert img {
+  height: 70px;
+  /* margin-bottom: 15px; */
+}
 
 #marketData{
   display: flex;
@@ -396,3 +576,8 @@ header {
 #commodities-chart tr, #curr-chart tr{
   margin-bottom: 10px;
 }
+
+
+
+
+
