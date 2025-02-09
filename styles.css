@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     text-align: center;
+    /* margin: auto;
+    width: 80vh; */
 }
 
 .top-banner {
@@ -231,6 +233,101 @@ body {
 
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.grid-item {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.section1 {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+} */
+
+li {
+    cursor: pointer;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s;
+}
+
+li:hover {
+    color: #007BFF;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
 .advisory {
     background-color: #ffdddd;
     padding: 10px;
@@ -394,3 +491,8 @@ header {
     height: 70px;
     /* margin-bottom: 15px; */
 }
+
+
+
+
+
