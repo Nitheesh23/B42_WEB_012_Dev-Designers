@@ -1,318 +1,398 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .top-banner {
-    background: white;
-    padding: 10px;
-    text-align: center;
+  background: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .logo img {
-    height: 30px;
+  height: 30px;
 }
 
 .title h1 {
-    color: #1a7b34;
-    font-size: 26px;
-    margin: 0;
+  color: #1a7b34;
+  font-size: 26px;
+  margin: 0;
 }
 
 .rupee {
-    color: blue;
+  color: blue;
 }
 
 .year {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
 }
 
-.co-presented, .associated {
-    margin: 0 20px;
+.co-presented,
+.associated {
+  margin: 0 20px;
 }
 
-.co-presented img, .associated .logos img {
-    height: 60px;
-    margin: 5px;
-    
+.co-presented img,
+.associated .logos img {
+  height: 60px;
+  margin: 5px;
 }
 
 .associated .logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background: #f8f8f8;
 }
 
 .menu button {
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.language select, .specials button, .right-menu button {
-    border: none;
-    background: none;
-    padding: 5px 10px;
-    cursor: pointer;
+.language select,
+.specials button,
+.right-menu button {
+  border: none;
+  background: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .search-bar {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    padding: 5px;
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .search-bar input {
-    border: none;
-    outline: none;
-    padding: 5px;
-    width: 200px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 200px;
 }
 
 .search-bar button {
-    background: none;
-    border: none;
-    cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .ad-free {
-    color: orange;
+  color: orange;
 }
 
 .footer {
-    padding: 10px;
-    background: white;
+  padding: 10px;
+  background: white;
 }
 
 .footer img {
-    height: 70px;
+  height: 180px;
 }
 
 .footer p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .footer a {
-    color: orange;
-    text-decoration: none;
+  color: orange;
+  text-decoration: none;
 }
 
-
-
-
 .navbar {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 10px 30px;
-    border-bottom: 2px solid #f0f0f0;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border-bottom: 2px solid #f0f0f0;
 }
 
 .nav-left {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .logo {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .pro-badge {
-    background: #f7931e;
-    color: white;
-    font-weight: bold;
-    padding: 3px 6px;
-    border-radius: 3px;
+  background: #f7931e;
+  color: white;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 3px;
 }
 
 .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-    margin: 0;
-    padding: 5px 0;
-    font-size: 14px;
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .extra-links {
-    display: flex;
-    list-style: none;
-    gap: 15px;
-    margin: 0;
-    padding: 5px 0;
-    font-size: 14px;
-    color: #333;
-    cursor: pointer;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
 }
 
 .budget {
-    background: #3fbf57;
-    color: white;
-    padding: 3px 8px;
-    border-radius: 3px;
-    font-weight: bold;
+  background: #3fbf57;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-weight: bold;
 }
 
 .highlight {
-    color: #0070ff;
-    font-weight: bold;
+  color: #0070ff;
+  font-weight: bold;
 }
 
 .picks {
-    color: #e94f37;
+  color: #e94f37;
 }
 
 .banner {
-    background: black;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  background: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .premium {
-    background: gold;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
+  background: gold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .loan-text {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .apply-btn {
-    background: white;
-    color: black;
-    border: none;
-    padding: 8px 15px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-
-
-
-
-
-
 .advisory {
-    background-color: #ffdddd;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    color: #d00;
+  background-color: #ffdddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #d00;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 10px 20px;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
 }
 
 .logo {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .money {
-    background-color: green;
-    color: white;
-    padding: 5px 10px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
 }
 
 .control {
-    background-color: blue;
-    color: white;
-    padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
 }
 
 .social-icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .social-icons .icons {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .stocks {
-    background-color: white;
-    padding: 10px 20px;
+  background-color: white;
+  padding: 10px 20px;
 }
 
 .stock-letters {
-    display: flex;
-    gap: 8px;
-    margin-top: 5px;
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
 }
 
 .stock-letters button {
-    background-color: #ddd;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .content {
-    background-color: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .section {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .section h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
+  margin: 0;
+  font-size: 18px;
+  color: #333;
 }
 
 .section p {
-    color: #666;
-    font-size: 14px;
+  color: #666;
+  font-size: 14px;
 }
 
 .new {
-    background-color: blue;
-    color: white;
-    padding: 2px 5px;
-    font-size: 12px;
-    border-radius: 3px;
+  background-color: blue;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+/* News and Charts */
+
+#marketData{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 15px;
+  height: 40px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#marketData p{
+  display: inline-block;
+  font-size: 12px;
+}
+
+.newsAndCharts {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news {
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+#news-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.companyStocks {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+#stocks-chart, #gainers-chart, #losers-chart {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#stocks-chart th, #stocks-chart td, #gainers-chart th, #gainers-chart td, #losers-chart th, #losers-chart td {
+    padding: 10px;
+    text-align: left;
+}
+
+#stocks-chart th, #gainers-chart th, #losers-chart th {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+
+#stocks-chart tr, #gainers-chart tr, #losers-chart tr {
+    margin-bottom: 10px;
+}
+
+#commodities-chart, #curr-chart{
+  border-collapse: collapse;
+    width: 100%;
+}
+
+#curr-chart th, #curr-chart td{
+  padding: 10px;
+  text-align: left;
+}
+
+#commodities-chart th, #commodities-chart td{
+  padding: 10px;
+  text-align: left;
+}
+
+#commodities-chart th, #curr-chart th{
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+
+#commodities-chart tr, #curr-chart tr{
+  margin-bottom: 10px;
 }
